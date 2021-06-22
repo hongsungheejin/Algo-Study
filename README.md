@@ -1,3 +1,3 @@
-# AI-interviewp
+# AI-interview
 
 emoji
