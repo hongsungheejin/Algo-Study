@@ -1,1 +1,1 @@
-# AI-interview
+Algorithm study
