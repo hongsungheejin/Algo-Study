@@ -24,7 +24,6 @@ def solution(enroll, referral, seller, amount):
             
             node = parent
             earn = give
-            
     
     for node in enroll:
         if node in money: answer.append(money[node])

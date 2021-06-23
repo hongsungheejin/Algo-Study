@@ -1,8 +1,7 @@
 def solution(lottos, win_nums):
     win_nums = set(win_nums)
     
-    eq = 0
-    zeros = 0
+    eq, zeros = 0, 0
     for lotto in lottos:
         if lotto == 0: zeros += 1
         elif lotto in win_nums:

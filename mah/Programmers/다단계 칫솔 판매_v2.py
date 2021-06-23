@@ -1,8 +1,6 @@
 from collections import defaultdict
 
 def solution(enroll, referral, seller, amount):
-    answer = []
-    
     tree = {}
     money = defaultdict(int)
     
@@ -28,6 +26,7 @@ def solution(enroll, referral, seller, amount):
             node = parent
             earns = gives
     
+    answer = []
     for node in enroll:
         if node in money: answer.append(money[node])
         else: answer.append(0)

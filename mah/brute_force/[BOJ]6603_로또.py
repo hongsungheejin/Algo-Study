@@ -1,14 +1,14 @@
 def print_lotto(nums):
-    def inner(chosen, idx):
-        if len(chosen)==6:
-            print(*chosen)
+    def inner(sub, idx):
+        if len(sub)==6:
+            print(*sub)
             return
 
-        s = idx + 1 if chosen else 0
+        s = idx + 1 if sub else 0
         for i in range(s, len(nums)):
-            chosen.append(nums[i])
-            inner(chosen, i)
-            chosen.pop()
+            sub.append(nums[i])
+            inner(sub, i)
+            sub.pop()
 
     inner([], -1)
     print()

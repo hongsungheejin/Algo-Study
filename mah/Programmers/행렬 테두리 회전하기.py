@@ -1,10 +1,10 @@
 from collections import deque
 
 moves = [
-    [0, 1],
-    [1, 0],
-    [0, -1],
-    [-1, 0]
+    [0, 1],  # 우
+    [1, 0],  # 하
+    [0, -1], # 좌
+    [-1, 0]  # 상
 ]
 
 def solution(rows, columns, queries):
