@@ -15,4 +15,3 @@ def binary_search(x):
 for i in temp:
   print(binary_search(i))
 
-
