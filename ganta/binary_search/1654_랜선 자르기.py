@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 def calc(num_list, n):
     res = 0
     
@@ -14,7 +17,7 @@ if __name__ == '__main__':
     
     max_len = max(num_list)
 
-    start = 0
+    start = 1
     end = max_len
     mid = 0
     ans = -1
