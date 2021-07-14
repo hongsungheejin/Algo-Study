@@ -1,2 +1,1 @@
-# AI-interview
-
+# Algo-study
